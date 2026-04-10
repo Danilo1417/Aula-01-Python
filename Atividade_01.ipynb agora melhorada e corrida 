@@ -1,0 +1,459 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyM+reRLYsFdQ+xxCcjO/9kI",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Danilo1417/Aula-01-Python/blob/main/Atividade_01.ipynb%20agora%20melhorada%20e%20corrida%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Sintexe basica"
+      ],
+      "metadata": {
+        "id": "I3dJIUGqhjmM"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 7,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "jPyTW8pKXxmy",
+        "outputId": "8bfd77fb-ca17-4091-f623-a2ac04c5110c"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "teste \n",
+            "teste1\n"
+          ]
+        }
+      ],
+      "source": [
+        "print(\"teste \\nteste1\")\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "inteiro = 10\n",
+        "inteiro2 = 11\n",
+        "print(inteiro, inteiro2)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "IGZQPzifj7OY",
+        "outputId": "cc0b2596-0548-43ea-c93d-1da92882c9e2"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "10 11\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "String \"\""
+      ],
+      "metadata": {
+        "id": "8n467dqfmiX1"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "texto = \"11\"\n",
+        "print(texto_um)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 158
+        },
+        "id": "mA2pJ8yZlkO4",
+        "outputId": "72391154-7a33-4463-a501-393b2606ee77"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "NameError",
+          "evalue": "name 'texto_um' is not defined",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+            "\u001b[0;32m/tmp/ipykernel_9361/3520191772.py\u001b[0m in \u001b[0;36m<cell line: 0>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      1\u001b[0m \u001b[0mtexto\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0;34m\"11\"\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 2\u001b[0;31m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mtexto_um\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+            "\u001b[0;31mNameError\u001b[0m: name 'texto_um' is not defined"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Booleano ou Bool"
+      ],
+      "metadata": {
+        "id": "hQj37gh2myHl"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "verdadeiro = True\n",
+        "falso = False\n",
+        "print(verdadeiro, falso)"
+      ],
+      "metadata": {
+        "id": "joRWyEl7mxF9"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Operadores matemático/aritméticos\n"
+      ],
+      "metadata": {
+        "id": "pd_LUCbmneBj"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "soma = 1 + 4\n",
+        "print(\"soma =\", soma)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "lAjE393tnnpy",
+        "outputId": "d0f03251-1936-46e0-f7cd-4909142ea90d"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "soma = 5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "subtrair = 8 - 4\n",
+        "print(\"A subritração é =\", subtrair)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ucBelvrGoSti",
+        "outputId": "21dfbf81-1b82-4708-a03b-ddcd417c3df8"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "A subritração é = 4\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "multiplicacao = 8 * 2\n",
+        "print(\"Multiplicação é =\", multiplicacao)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "GtczSAUBplGC",
+        "outputId": "98390ef0-bdf8-4511-83ee-c657a83b8acf"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Multiplicação é = 16\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "divisao = 8 / 2\n",
+        "print(\"Divisão é =\", divisao)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Xw6ypbsDp2pI",
+        "outputId": "82527760-93d9-48a4-a8b7-7dad9e24d645"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Divisão é = 4.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"Nome, Joao idade 38 anos  cidade: Brasilia\")"
+      ],
+      "metadata": {
+        "id": "l06zE6_zndHD",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "6827dcc4-b76a-4b21-8db8-53504b2f2dee"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Nome, Joao idade 38 anos  cidade: Brasilia\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Atividade 01"
+      ],
+      "metadata": {
+        "id": "vXCscgaKa_w_"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nome = \"João Silva\"\n",
+        "idade = 25\n",
+        "profissao = \"Desenvolvedor\"\n",
+        "print (\"Seu nome é:\",nome)\n",
+        "print(\"Sua idade é:\",idade, \"anos\")\n",
+        "print(\"Sua profissão é;\", profissao)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "39mQWb4tX-zq",
+        "outputId": "064be4e6-36e2-4784-d754-763378d2a6a4"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Seu nome é: João Silva\n",
+            "Sua idade é: 25 anos\n",
+            "Sua profissão é; Desenvolvedor\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Atividade 02"
+      ],
+      "metadata": {
+        "id": "DV0GU1NnbDJ-"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "produto = \"Notebook\"\n",
+        "marca = \"Dell\"\n",
+        "preco =  4500.00\n",
+        "print(\"Produto :\", produto)\n",
+        "print(\"Marca :\", marca)\n",
+        "print(f\"Preco R$ {preco:.2f}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "QxjUjZt3bFr-",
+        "outputId": "e45423bc-4d52-4678-c689-d0281a435a42"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Produto : Notebook\n",
+            "Marca : Dell\n",
+            "Preco R$ 4500.00\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Atividade 3"
+      ],
+      "metadata": {
+        "id": "too14vdhnou4"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num1 = 12\n",
+        "num2 = 6\n",
+        "num3 = 10\n",
+        "soma = num1 + num2 + num3\n",
+        "subtracao = num1 - num2 - num3\n",
+        "mult = num1 * num2 * num3\n",
+        "divisao = int(num1 / num2 / num3)\n",
+        "print(\"Numero 1:\", num1)\n",
+        "print(\"Numero 2:\", num2)\n",
+        "print(\"Numero 3:\", num3)\n",
+        "print(\"Soma:\", soma)\n",
+        "print(\"Sub:\", subtracao)\n",
+        "print(\"Mult:\", mult)\n",
+        "print(\"Div:\", divisao)\n"
+      ],
+      "metadata": {
+        "id": "0YAt9s-unrBQ",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "3d923fbe-7f95-4013-957c-5a818a13001b"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Numero 1: 12\n",
+            "Numero 2: 6\n",
+            "Numero 3: 10\n",
+            "Soma: 28\n",
+            "Sub: -4\n",
+            "Mult: 720\n",
+            "Div: 0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Atividade 04"
+      ],
+      "metadata": {
+        "id": "RRs1gT9zqlY0"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "from re import sub\n",
+        "num1 = 7\n",
+        "num2 = 2\n",
+        "soma = num1 + num2\n",
+        "sub = num1 - num2\n",
+        "mult = num1 * num2\n",
+        "div = num1 / num2\n",
+        "potenciacao = num1 ** num2\n",
+        "print(\"Número 1:\", num1)\n",
+        "print(\"Número 2:\", num2)\n",
+        "print(\"Soma:\", soma)\n",
+        "print(\"Subtração:\", sub)\n",
+        "print(\"Multiplicação:\", mult)\n",
+        "print(\"Divisão:\", div)\n",
+        "print(\"Potênciação:\", potenciacao)\n"
+      ],
+      "metadata": {
+        "id": "Nptg5BConnAR",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "2af4bc3e-3ad0-436d-d53c-a771071ec78d"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Número 1: 7\n",
+            "Número 2: 2\n",
+            "Soma: 9\n",
+            "Subtração: 5\n",
+            "Multiplicação: 14\n",
+            "Divisão: 3.5\n",
+            "Potênciação: 49\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
